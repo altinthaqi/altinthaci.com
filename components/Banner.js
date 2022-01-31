@@ -153,6 +153,7 @@ export const Left = styled.div`
     font-family: "arsenica_trialmedium";
     font-size: 96px;
     margin-bottom: 1rem;
+    font-weight: 500;
   }
   p {
     margin: 1rem 1rem 1rem 4rem;
