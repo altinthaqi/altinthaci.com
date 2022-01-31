@@ -28,10 +28,10 @@ export const Shape = styled.div`
     height: 350px;
   }
   ${media.mobile} {
-    max-height: 600px;
+    max-height: 300px;
     max-width: 340px;
     width: 90%;
-    border-radius: 240px;
+    border-radius: 25%;
     right: 50%;
     transform: translate(50%);
     height: 80%;

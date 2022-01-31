@@ -105,8 +105,9 @@ export const Right = styled.div`
     position: absolute;
     bottom: 0;
     height: 300px;
-    width: 255px;
+    width: 225px;
     z-index: 0;
+    border-radius: 25%;
   }
 `;
 

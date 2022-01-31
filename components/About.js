@@ -62,6 +62,7 @@ export const InnerContainer = styled.div`
   flex-direction: column;
   margin-left: 8rem;
   color: ${(props) => props.theme.text};
+  margin-bottom: 10rem;
 
   h2 {
     font-size: 91px;
