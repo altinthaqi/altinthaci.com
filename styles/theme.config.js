@@ -8,6 +8,7 @@ export const lightTheme = {
   secondaryText: "#535353",
   skillsText: "#929292",
   accent: "#F1E5DA",
+  accentBody: "#F1E5DA",
 };
 
 export const darkTheme = {
@@ -18,6 +19,7 @@ export const darkTheme = {
   secondaryText: "#F7FAFC",
   skillsText: "#C0C0C0",
   accent: "#3D3A50",
+  accentBody: "#2E2E2E",
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -30,4 +32,5 @@ export const GlobalStyles = createGlobalStyle`
 body {
   
    transition: all 0.50s linear;
+   background-color: ${(props) => props.theme.body};
 }`;

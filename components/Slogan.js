@@ -81,6 +81,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  max-width: 1920px;
+  margin: auto;
 `;
 
 export default Slogan;

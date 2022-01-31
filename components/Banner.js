@@ -16,7 +16,7 @@ function Banner() {
             user experience and user interfaces.
           </p>
           <p>
-            I design and develop performant beutiful experiences that make
+            I design and develop performant beautiful experiences that make
             people’s lives simple. I’m highly inspired by the antique.
           </p>
         </Left>
@@ -205,6 +205,9 @@ export const Container = styled.div`
   width: 100%;
   min-height: calc(100vh - 66.5px);
   position: relative;
+  max-width: 1920px;
+
+  margin: auto;
 
   .arrowBottom {
     position: absolute;
