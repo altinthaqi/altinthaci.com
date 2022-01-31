@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+
 export const lightTheme = {
   body: "#F5F3F1",
   bannerBody: "#F5EFE9",
@@ -23,11 +24,10 @@ export const GlobalStyles = createGlobalStyle`
 
 * {
    box-sizing: border-box; margin: 0;
-   font-family: "arsenica_trialmedium";
+   /* font-family: "arsenica_trialmedium"; */
    padding: 0;
 }
 body {
   
-   background: ${({ theme }) => theme.bannerBody};
    transition: all 0.50s linear;
 }`;

@@ -3,7 +3,7 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 999;
-  padding: 2rem 2rem;
+  padding: 0.7rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,7 +12,6 @@ export const Nav = styled.nav`
   box-shadow: 0 3px 5px rgba(36, 36, 36, 0.1);
   .themeIcon {
     font-size: 18px;
-    margin: 0px 20px;
     color: ${(props) => props.theme.text};
     cursor: pointer;
   }
@@ -39,7 +38,7 @@ export const Menu = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 10px;
+
   @media (max-width: 768px) {
     overflow: hidden;
     flex-direction: column;
@@ -49,10 +48,12 @@ export const Menu = styled.div`
   }
 `;
 export const MenuLink = styled.p`
-  padding: 1rem 2rem;
+  padding: 1rem;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   color: ${(props) => props.theme.text};
   font-size: 0.9rem;
+  font-family: "Inter";
+  font-weight: 500;
 `;
