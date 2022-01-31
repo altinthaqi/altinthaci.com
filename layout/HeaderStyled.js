@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background-color: ${(props) => props.theme.body};
+  background-color: ${(props) => props.theme.header};
   box-shadow: 0 3px 5px rgba(36, 36, 36, 0.1);
   .themeIcon {
     font-size: 18px;

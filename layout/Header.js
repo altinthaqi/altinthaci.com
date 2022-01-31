@@ -6,7 +6,7 @@ import { BsFillMoonFill } from "react-icons/bs";
 import Logo from "../components/Logo";
 
 function Header({ themeToggler, theme }) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <Nav>
