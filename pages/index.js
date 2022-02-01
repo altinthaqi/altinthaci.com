@@ -3,6 +3,7 @@ import Loading from "../components/Loading";
 import Banner from "../components/Banner";
 import Slogan from "../components/Slogan";
 import About from "../components/About";
+import Projects from "../components/Projects";
 
 export default function Home(props) {
   return (
@@ -11,6 +12,7 @@ export default function Home(props) {
       <Banner />
       <Slogan />
       <About />
+      <Projects />
     </>
   );
 }

@@ -9,6 +9,7 @@ export const lightTheme = {
   skillsText: "#929292",
   accent: "#F1E5DA",
   accentBody: "#F1E5DA",
+  greyText: "#a7a7a7aa",
 };
 
 export const darkTheme = {
@@ -20,6 +21,7 @@ export const darkTheme = {
   skillsText: "#C0C0C0",
   accent: "#3D3A50",
   accentBody: "#2E2E2E",
+  greyText: "#b8b8b8aa",
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -28,6 +30,10 @@ export const GlobalStyles = createGlobalStyle`
    box-sizing: border-box; margin: 0;
    /* font-family: "arsenica_trialmedium"; */
    padding: 0;
+}
+
+a{
+  text-decoration: none;
 }
 body {
   
