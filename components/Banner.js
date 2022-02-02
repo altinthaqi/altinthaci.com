@@ -1,12 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import me from "../public/me.png";
-import arrowBottom from "../public/arrow.png";
+import me from "../public/img/me.png";
 import { media } from "../styles/media";
 
 function Banner() {
   return (
-    <Container>
+    <Container id="banner">
       <InnerContainer>
         <Left>
           <h1>Altin Thaci</h1>

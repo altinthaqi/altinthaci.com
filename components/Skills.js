@@ -1,28 +1,27 @@
 import styled from "styled-components";
-import skills1 from "../public/skills1.png";
-import skills2 from "../public/skills2.png";
-import skills3 from "../public/skills3.png";
+import skills1 from "../public/img/skills1.png";
+import skills2 from "../public/img/skills2.png";
+import skills3 from "../public/img/skills3.png";
 
 import { media } from "../styles/media";
 
 const Skills = () => {
   return (
     <Container>
-      <ShapeLeft></ShapeLeft>
       <InnerContainer>
         <BoxContainer>
           <Box>
-            <img src={skills1.src} alt="" />
+            <img height="121px" width="128px" src={skills1.src} alt="" />
             <h2>React</h2>
           </Box>
 
           <Box>
-            <img src={skills2.src} alt="" />
+            <img height="135px" width="124px" src={skills2.src} alt="" />
             <h2>Front-end</h2>
           </Box>
 
           <Box>
-            <img src={skills3.src} alt="" />
+            <img height="135px" width="93px" src={skills3.src} alt="" />
             <h2>Design</h2>
           </Box>
         </BoxContainer>
@@ -32,7 +31,6 @@ const Skills = () => {
           <p>SASS ⋅ Material/Chakra UI ⋅ styled-components</p>
         </SkillsContent>
       </InnerContainer>
-      <ShapeRight></ShapeRight>
     </Container>
   );
 };
@@ -50,44 +48,11 @@ export const SkillsContent = styled.div`
   }
 `;
 
-export const ShapeLeft = styled.div`
-  position: absolute;
-  /* height: 280px;
-  max-width: 400px;
-  width: 50%;
-  background-color: ${(props) => props.theme.accent};
-  bottom: 54%;
-  left: 0;
-  transform: translate(0, 50%);
-  z-index: 0;
-
-  ${media.mobile} {
-    height: 250px;
-    bottom: 57%;
-  } */
-`;
-
-export const ShapeRight = styled.div`
-  position: absolute;
-  /* height: 280px;
-  max-width: 400px;
-  width: 50%;
-   background-color: ${(props) => props.theme.accent}; 
-  bottom: 54%;
-  right: 0;
-  transform: translate(0, 50%);
-  z-index: 0;
-
-  ${media.mobile} {
-    height: 250px;
-    bottom: 57%;
-  } */
-`;
-
 export const Container = styled.section`
   min-height: 100vh;
   background-color: ${(props) => props.theme.body};
   position: relative;
+  padding: 2rem 0rem;
 `;
 
 export const BoxContainer = styled.div`

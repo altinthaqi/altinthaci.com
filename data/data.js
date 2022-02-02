@@ -1,17 +1,19 @@
 //coding
-import moviemood from "../public/movie-mood.png";
-import amazon from "../public/amazon.png";
-import starwars from "../public/starwars.png";
-import github from "../public/github.png";
-import editari from "../public/e-ditari.png";
-import rickandmorty from "../public/rickandmorty.png";
+import moviemood from "../public/img/movie-mood.png";
+import amazon from "../public/img/amazon.png";
+import starwars from "../public/img/starwars.png";
+import github from "../public/img/github.png";
+import editari from "../public/img/e-ditari.png";
+import rickandmorty from "../public/img/rickandmorty.png";
+import spacex from "../public/img/spacex.png";
+import foodzz from "../public/img/foodzz.png";
 
 //design
-import browsbyedd from "../public/logoBrowsbyedd.jpg";
-import silvermoon from "../public/logoSilvermoon.jpg";
-import tigani from "../public/logoTigani.jpg";
-import vintage from "../public/logoVintage.jpg";
-import altin from "../public/logoAltin.jpg";
+import browsbyedd from "../public/img/logoBrowsbyedd.png";
+import silvermoon from "../public/img/logoSilvermoon.png";
+import tigani from "../public/img/logoTigani.png";
+import vintage from "../public/img/logoVintage.png";
+import altin from "../public/img/logoAltin.png";
 
 export const codingData = [
   {
@@ -25,8 +27,28 @@ export const codingData = [
     id: 2,
     img: rickandmorty,
     title: "Rick and Morty",
-    github: "https://github.com/altinthaqi/movie-mood",
-    deployed: "https://movie-mood.altinthaci.com",
+    github: "https://github.com/altinthaqi/rick-and-morty",
+    deployed: "https://rickandmorty.altinthaci.com",
+  },
+  {
+    id: 99,
+    img: foodzz,
+    title: "Foodzz",
+    github: "https://github.com/altinthaqi/foodzz",
+    deployed: "https://www.foodzz.altinthaci.com",
+  },
+  {
+    id: 100,
+    img: spacex,
+    title: "SpaceX Launches",
+    github: "https://github.com/altinthaqi/spacex-launches",
+    deployed: "https://www.spacex-launches.altinthaci.com",
+  },
+  {
+    id: 5,
+    img: editari,
+    title: "E-Ditari",
+    github: "https://github.com/altinthaqi/e-ditari",
   },
   {
     id: 3,
@@ -39,14 +61,8 @@ export const codingData = [
     id: 4,
     img: starwars,
     title: "Star Wars Platorm",
-    github: "https://github.com/altinthaqi/StarWars",
-    deployed: "https://altinthaqi.github.io/StarWars/",
-  },
-  {
-    id: 5,
-    img: editari,
-    title: "E-Ditari",
-    github: "https://github.com/altinthaqi/e-ditari",
+    github: "https://github.com/altinthaqi/starwars",
+    deployed: "https://altinthaqi.github.io/starwars/",
   },
   {
     id: 6,

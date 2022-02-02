@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { media } from "../styles/media";
-import acropolis from "../public/acropolis.png";
+import acropolis from "../public/img/acropolis.png";
 import Project from "./Project";
 import { codingData, designingData } from "../data/data";
 
@@ -9,7 +9,7 @@ function Projects() {
   const [projectsType, setProjectsType] = useState("coding");
 
   return (
-    <Container>
+    <Container id="projects">
       <Title>projects</Title>
       <InnerContainer>
         <ProjectsType>

@@ -10,7 +10,10 @@ function Header({ themeToggler, theme }) {
 
   return (
     <Nav>
-      <Logo />
+      <a href="#banner">
+        <Logo />
+      </a>
+
       {theme === "light" ? (
         <BsFillMoonFill className="themeIcon" onClick={() => themeToggler()} />
       ) : (
@@ -23,13 +26,22 @@ function Header({ themeToggler, theme }) {
       </Hamburger>
 
       <Menu isOpen={isOpen}>
-        <MenuLink onClick={() => (isOpen === true ? setIsOpen(!isOpen) : "")}>
+        <MenuLink
+          href="#about"
+          onClick={() => (isOpen === true ? setIsOpen(!isOpen) : "")}
+        >
           who
         </MenuLink>
-        <MenuLink onClick={() => (isOpen === true ? setIsOpen(!isOpen) : "")}>
+        <MenuLink
+          href="#projects"
+          onClick={() => (isOpen === true ? setIsOpen(!isOpen) : "")}
+        >
           work
         </MenuLink>
-        <MenuLink onClick={() => (isOpen === true ? setIsOpen(!isOpen) : "")}>
+        <MenuLink
+          href="#contact"
+          onClick={() => (isOpen === true ? setIsOpen(!isOpen) : "")}
+        >
           where
         </MenuLink>
       </Menu>

@@ -47,7 +47,7 @@ export const Menu = styled.div`
     transition: max-height 0.3s ease-in;
   }
 `;
-export const MenuLink = styled.p`
+export const MenuLink = styled.a`
   padding: 1rem;
   cursor: pointer;
   text-align: center;
