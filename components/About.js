@@ -25,7 +25,7 @@ function About() {
   );
 }
 
-export const Container = styled.div`
+export const Container = styled.section`
   height: calc(100vh - 67px);
   display: flex;
   align-items: center;

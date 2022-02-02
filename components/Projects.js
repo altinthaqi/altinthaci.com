@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { media } from "../styles/media";
 import acropolis from "../public/acropolis.png";
 import Project from "./Project";
-
 import { codingData, designingData } from "../data/data";
 
 function Projects() {
@@ -70,7 +69,7 @@ export const InnerContainer = styled.div`
   align-items: center;
 `;
 
-export const Container = styled.div`
+export const Container = styled.section`
   min-height: calc(100vh - 67px);
   background-color: ${(props) => props.theme.bannerBody};
   position: relative;

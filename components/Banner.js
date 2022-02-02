@@ -198,7 +198,7 @@ export const Image = styled.img`
   }
 `;
 
-export const Container = styled.div`
+export const Container = styled.section`
   background-color: ${(props) => props.theme.bannerBody};
   display: flex;
   flex-direction: column;

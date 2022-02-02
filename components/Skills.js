@@ -39,6 +39,7 @@ const Skills = () => {
 
 export const SkillsContent = styled.div`
   z-index: 2;
+
   p {
     text-align: center;
     color: ${(props) => props.theme.skillsText};
@@ -51,10 +52,10 @@ export const SkillsContent = styled.div`
 
 export const ShapeLeft = styled.div`
   position: absolute;
-  height: 280px;
+  /* height: 280px;
   max-width: 400px;
   width: 50%;
-  /* background-color: ${(props) => props.theme.accent}; */
+  background-color: ${(props) => props.theme.accent};
   bottom: 54%;
   left: 0;
   transform: translate(0, 50%);
@@ -63,15 +64,15 @@ export const ShapeLeft = styled.div`
   ${media.mobile} {
     height: 250px;
     bottom: 57%;
-  }
+  } */
 `;
 
 export const ShapeRight = styled.div`
   position: absolute;
-  height: 280px;
+  /* height: 280px;
   max-width: 400px;
   width: 50%;
-  /* background-color: ${(props) => props.theme.accent}; */
+   background-color: ${(props) => props.theme.accent}; 
   bottom: 54%;
   right: 0;
   transform: translate(0, 50%);
@@ -80,10 +81,10 @@ export const ShapeRight = styled.div`
   ${media.mobile} {
     height: 250px;
     bottom: 57%;
-  }
+  } */
 `;
 
-export const Container = styled.div`
+export const Container = styled.section`
   min-height: 100vh;
   background-color: ${(props) => props.theme.body};
   position: relative;

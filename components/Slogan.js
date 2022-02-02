@@ -75,7 +75,7 @@ export const Content = styled.div`
   }
 `;
 
-export const Container = styled.div`
+export const Container = styled.section`
   min-height: calc(100vh - 66.5px);
   background-color: ${(props) => props.theme.body};
   display: flex;

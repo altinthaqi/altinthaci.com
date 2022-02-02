@@ -1,9 +1,10 @@
+import dynamic from "next/dynamic";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles, lightTheme, darkTheme } from "../styles/theme.config";
 import { useState } from "react";
 import Meta from "../components/Meta";
 import "../styles/fonts/stylesheet.css";
-import dynamic from "next/dynamic";
+
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
 });
