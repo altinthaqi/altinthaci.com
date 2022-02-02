@@ -29,6 +29,7 @@ export const Container = styled.div`
   height: calc(100vh - 67px);
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: ${(props) => props.theme.body};
   position: relative;
   max-width: 1920px;
@@ -60,7 +61,6 @@ export const Container = styled.div`
 export const InnerContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 8rem;
   color: ${(props) => props.theme.text};
   margin-bottom: 10rem;
 
@@ -76,7 +76,7 @@ export const InnerContainer = styled.div`
     font-family: "Inter";
     font-weight: 500;
     max-width: 600px;
-    margin: 2rem 0rem 0rem 8rem;
+    margin: 2rem 0rem 0rem 4rem;
     z-index: 1;
   }
 

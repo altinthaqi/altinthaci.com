@@ -9,7 +9,7 @@ export const lightTheme = {
   skillsText: "#929292",
   accent: "#F1E5DA",
   accentBody: "#F1E5DA",
-  greyText: "#a7a7a7aa",
+  greyText: "#686868",
 };
 
 export const darkTheme = {
@@ -21,7 +21,7 @@ export const darkTheme = {
   skillsText: "#C0C0C0",
   accent: "#3D3A50",
   accentBody: "#2E2E2E",
-  greyText: "#b8b8b8aa",
+  greyText: "#c2c2c2aa",
 };
 
 export const GlobalStyles = createGlobalStyle`

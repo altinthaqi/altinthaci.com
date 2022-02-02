@@ -14,18 +14,18 @@ function Projects() {
       <Title>projects</Title>
       <InnerContainer>
         <ProjectsType>
-          <p
+          <a
             className={projectsType === "coding" ? "active" : ""}
             onClick={() => setProjectsType("coding")}
           >
             coding
-          </p>
-          <p
+          </a>
+          <a
             className={projectsType === "design" ? "active" : ""}
             onClick={() => setProjectsType("design")}
           >
             design
-          </p>
+          </a>
         </ProjectsType>
 
         <ProjectsContainer>
@@ -116,7 +116,7 @@ export const ProjectsType = styled.div`
     color: ${(props) => props.theme.text};
   }
 
-  p {
+  a {
     z-index: 2;
     cursor: pointer;
     margin: 2rem;

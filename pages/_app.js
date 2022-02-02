@@ -3,6 +3,10 @@ import { GlobalStyles, lightTheme, darkTheme } from "../styles/theme.config";
 import { useState } from "react";
 import Meta from "../components/Meta";
 import "../styles/fonts/stylesheet.css";
+import dynamic from "next/dynamic";
+const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
+  ssr: false,
+});
 
 function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState("light");
@@ -14,6 +18,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <Meta />
+      <AnimatedCursor
+        innerSize={18}
+        outerSize={20}
+        color={theme === "light" ? "190, 119, 54" : "127, 125, 144"}
+        outerAlpha={0.2}
+        innerScale={0.9}
+        outerScale={3}
+      />
       <GlobalStyles />
       <Component theme={theme} themeToggler={themeToggler} {...pageProps} />
     </ThemeProvider>
