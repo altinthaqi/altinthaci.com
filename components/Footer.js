@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <Container>
+    <Container id="contact">
       <h2>contact</h2>
       <FooterInfo>
         <span>
@@ -44,7 +44,7 @@ const Footer = () => {
 
 export const FooterInfo = styled.div`
   width: 70%;
-  margin: 2rem auto;
+  margin: 1rem auto;
 
   span {
     display: flex;
@@ -72,9 +72,10 @@ export const Container = styled.footer`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: ${(props) => props.theme.bannerBody};
 
   h2 {
-    font-size: 81px;
+    font-size: 61px;
     color: ${(props) => props.theme.text};
     font-family: "arsenica_trialmedium";
     font-weight: 500;
@@ -88,6 +89,12 @@ export const Container = styled.footer`
       margin-left: 2rem;
       font-size: 41px;
     }
+  }
+
+  ${media.mobile} {
+    min-height: 50vh;
+
+    font-size: 41px;
   }
 `;
 

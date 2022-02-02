@@ -28,15 +28,13 @@ export const GlobalStyles = createGlobalStyle`
 
 * {
    box-sizing: border-box; margin: 0;
-   /* font-family: "arsenica_trialmedium"; */
    padding: 0;
+   scroll-behavior: smooth;
 }
 
 a{
   text-decoration: none;
 }
 body {
-  
    transition: all 0.50s linear;
-   background-color: ${(props) => props.theme.body};
 }`;

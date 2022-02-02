@@ -1,5 +1,9 @@
 import styled from "styled-components";
 import { media } from "../styles/media";
+import { AiFillGithub, AiFillBehanceSquare } from "react-icons/ai";
+import { ImSphere } from "react-icons/im";
+
+import { FiExternalLink } from "react-icons/fi";
 
 const Project = (props) => {
   return (
@@ -14,19 +18,19 @@ const Project = (props) => {
           <span>
             {props.github && (
               <a target="_blank" rel="noreferrer" href={props.github}>
-                github
+                <AiFillGithub className="icon" />
               </a>
             )}
 
             {props.deployed && (
               <a target="_blank" rel="noreferrer" href={props.deployed}>
-                deployed
+                <FiExternalLink className="icon" />
               </a>
             )}
 
             {props.behance && (
               <a target="_blank" rel="noreferrer" href={props.behance}>
-                behance
+                <AiFillBehanceSquare className="icon" />
               </a>
             )}
           </span>
@@ -82,7 +86,7 @@ export const ProjectWrapper = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 0.7rem;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
     background-color: ${(props) => props.theme.accent};
@@ -112,10 +116,15 @@ export const ProjectWrapper = styled.div`
 
       font-family: "Inter";
 
-      a {
-        margin: 0px 8px;
+      .icon {
+        margin: 0px 10px;
         font-weight: 500;
         color: ${(props) => props.theme.secondaryText};
+        font-size: 30px;
+
+        &:hover {
+          color: ${(props) => props.theme.text};
+        }
       }
     }
   }

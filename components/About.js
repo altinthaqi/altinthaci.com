@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import sculpt from "../public/aboutSculpt.png";
+import sculpt from "../public/img/aboutSculpt.png";
 import { media } from "../styles/media";
 
 function About() {
   return (
-    <Container>
+    <Container id="about">
       <InnerContainer>
         <h2>about</h2>
         <p>
@@ -26,7 +26,7 @@ function About() {
 }
 
 export const Container = styled.section`
-  height: calc(100vh - 67px);
+  height: calc(90vh - 67px);
   display: flex;
   align-items: center;
   justify-content: center;
