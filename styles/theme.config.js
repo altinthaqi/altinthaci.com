@@ -14,7 +14,7 @@ export const lightTheme = {
 
 export const darkTheme = {
   body: "#2E2E2E",
-  bannerBody: "#2E2E2E",
+  bannerBody: "#292929",
   header: "#383838",
   text: "#F5F3F1",
   secondaryText: "#F7FAFC",
