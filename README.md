@@ -1,19 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">altinthaci.com</h1>
 
-## Getting Started
+<p align="center">altinthaci.com is my personal portfolio web application that holds information about me and my work. This project is developed using React (NextJS) and styled with styled-components. I went with NextJS due to static generation, SSR and other performance optimization features, aswell as SEO optimization.</p>
 
-First, run the development server:
+## Links
 
-```bash
-npm run dev
-# or
-yarn dev
+- [Repository](https://github.com/altinthaqi/altinthaci.com.git "altinthaci.com")
+
+- [Live Deployment of the Project](https://altinthaci.com "Live View")
+
+
+## To use the project
+
+**Download** the project as **ZIP** or **Clone** it via:
+
+```
+git clone https://github.com/altinthaqi/altinthaci.com.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to repository's directory and install all dependencies:
 
-## Deploy on Vercel
+```
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+After Node Modules are installed, you're ready to start the project:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+npm run dev
+```
+
+## Project's using these dependencies: version
+
+- next: 12.0.9,
+- react: 17.0.2,
+- react-animated-cursor: 2.2.0,
+- react-dom: 17.0.2,
+- react-icons: 4.3.1,
+- styled-components: 5.3.3
+
+
+## Built With:
+
+- ReactJS
+- NextJS
+- styled-components
