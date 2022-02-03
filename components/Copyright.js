@@ -6,7 +6,7 @@ const Copyright = () => {
 
 export const CRParagraph = styled.p`
   text-align: center;
-  padding: 17px 0px;
+  padding: 13px 0px;
   background-color: ${(props) => props.theme.accent};
   color: ${(props) => props.theme.skillsText};
   font-family: "Inter";

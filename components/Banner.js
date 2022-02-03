@@ -32,11 +32,21 @@ function Banner() {
           GitHub
         </a>
 
-        <a href="https://www.linkedin.com/in/altin-thaçi-b6721921b/">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/altin-thaçi-b6721921b/"
+        >
           LinkedIn
         </a>
 
-        <a href="https://www.behance.net/altinthaqi1">Behance</a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.behance.net/altinthaqi1"
+        >
+          Behance
+        </a>
       </BottomLinks>
 
       {/* <img className="arrowBottom" src={arrowBottom.src} alt="" /> */}
@@ -53,8 +63,9 @@ export const BottomLinks = styled.div`
     font-size: 21px;
     color: ${(props) => props.theme.secondaryText};
     display: inline-block;
-
+    font-family: "Inter";
     text-decoration: none;
+    font-weight: 500;
 
     &::after {
       content: "";
@@ -90,6 +101,7 @@ export const Right = styled.div`
   height: 700px;
   max-width: 500px;
   border-radius: 250px;
+  overflow: hidden;
 
   ${media.tablet} {
     margin: 0;
@@ -205,9 +217,6 @@ export const Container = styled.section`
   width: 100%;
   min-height: calc(100vh - 66.5px);
   position: relative;
-  max-width: 1920px;
-
-  margin: auto;
 
   .arrowBottom {
     position: absolute;

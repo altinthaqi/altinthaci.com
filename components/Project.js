@@ -42,16 +42,17 @@ const Project = (props) => {
 
 export const ProjectWrapper = styled.div`
   position: relative;
-  width: 225px;
-  height: 225px;
-  position: relative;
+  width: 270px;
+  height: 270px;
 
   &:hover .imgBox {
     transform: translate(-0.5rem, -3rem);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   }
 
   &:hover .content {
     transform: translate(0.5rem, 2rem);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   }
 
   ${media.mobile} {
@@ -71,10 +72,11 @@ export const ProjectWrapper = styled.div`
     height: 100%;
     z-index: 2;
     transition: all 0.5s ease-in-out;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 
     img {
-      width: 225px;
-      height: 225px;
+      width: 270px;
+      height: 270px;
       object-fit: cover;
       resize: both;
     }
@@ -97,7 +99,7 @@ export const ProjectWrapper = styled.div`
     /* border-radius: 15px; */
 
     ${media.mobile} {
-      padding: 1.8rem;
+      padding: 1.8rem 0.9rem;
     }
 
     p {

@@ -7,7 +7,7 @@ function About() {
   return (
     <Container id="about">
       <InnerContainer>
-        <h2>about</h2>
+        <h2>About</h2>
         <p>
           I’m Altin, based in Prishtina. A React Front-end Developer and an
           overall web enthusiast experienced in building all aspects of the user
@@ -32,8 +32,6 @@ export const Container = styled.section`
   justify-content: center;
   background-color: ${(props) => props.theme.body};
   position: relative;
-  max-width: 1920px;
-  margin: auto;
 
   .sculpture {
     position: absolute;
@@ -65,7 +63,7 @@ export const InnerContainer = styled.div`
   margin-bottom: 10rem;
 
   h2 {
-    font-size: 91px;
+    font-size: 81px;
     font-family: "arsenica_trialmedium";
 
     font-weight: 500;

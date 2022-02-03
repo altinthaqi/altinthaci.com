@@ -29,8 +29,8 @@ const Meta = (props) => (
     <meta name="twitter:site" content="Altin Thaci - Portfolio" />
     <meta name="twitter:creator" content="Altin Thaci" />
 
-    <link rel="icon" type="image/png" href="/static/images/favicon.ico" />
-    <link rel="apple-touch-icon" href="/static/images/favicon.ico" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"

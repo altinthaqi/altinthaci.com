@@ -10,7 +10,7 @@ function Projects() {
 
   return (
     <Container id="projects">
-      <Title>projects</Title>
+      <Title>Projects</Title>
       <InnerContainer>
         <ProjectsType>
           <a
@@ -48,17 +48,17 @@ function Projects() {
 export const ProjectsContainer = styled.div`
   z-index: 2;
   display: grid;
-  grid-template-columns: repeat(3, 225px);
+  grid-template-columns: repeat(3, 270px);
   width: 100%;
   gap: 80px 80px;
   margin-top: 2rem;
 
   ${media.tablet} {
-    grid-template-columns: repeat(2, 225px);
+    grid-template-columns: repeat(2, 270px);
   }
 
   ${media.mobile} {
-    grid-template-columns: repeat(1, 225px);
+    grid-template-columns: repeat(1, 270px);
   }
 `;
 
@@ -91,7 +91,7 @@ export const Acropolis = styled.img`
 `;
 
 export const Title = styled.h2`
-  font-size: 91px;
+  font-size: 81px;
   text-align: start;
   align-self: flex-start;
   font-family: "arsenica_trialmedium";

@@ -20,19 +20,31 @@ const Footer = () => {
           </a>
         </span>
         <span>
-          <a href="https://github.com/altinthaqi">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/altinthaqi"
+          >
             <AiFillGithub className="icon" />
             GitHub
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/altin-thaçi-b6721921b/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/altin-thaçi-b6721921b/"
+          >
             <AiFillLinkedin className="icon" />
             LinkedIn
           </a>
         </span>
         <span>
-          <a href="https://www.behance.net/altinthaqi1">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.behance.net/altinthaqi1"
+          >
             <AiFillBehanceSquare className="icon" />
             Behance
           </a>
@@ -44,20 +56,29 @@ const Footer = () => {
 
 export const FooterInfo = styled.div`
   width: 70%;
-  margin: 1rem auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
   span {
     display: flex;
     align-items: center;
+    margin: 1rem 0rem;
 
     a {
       color: ${(props) => props.theme.secondaryText};
       font-size: 18px;
       font-family: "Inter";
       font-weight: 500;
-      margin: 1rem 1rem;
+      margin: 0rem 1rem;
       display: flex;
       align-items: center;
+
+      &:hover {
+        color: ${(props) => props.theme.text};
+      }
 
       .icon {
         margin: 0px 15px;
@@ -65,14 +86,24 @@ export const FooterInfo = styled.div`
       }
     }
   }
+
+  ${media.mobile} {
+    justify-content: flex-start;
+
+    span {
+      a {
+        font-size: 16px;
+      }
+    }
+  }
 `;
 
 export const Container = styled.footer`
-  min-height: 50vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-color: ${(props) => props.theme.bannerBody};
+  padding: 20px 0px;
 
   h2 {
     font-size: 61px;
@@ -92,8 +123,6 @@ export const Container = styled.footer`
   }
 
   ${media.mobile} {
-    min-height: 50vh;
-
     font-size: 41px;
   }
 `;
